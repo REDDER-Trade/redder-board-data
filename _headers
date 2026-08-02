@@ -1,0 +1,7 @@
+# REDDER - redder-board-data Netlify site
+# Serves board-data.json to the public deal board at board.redder.trade.
+# Cross-origin fetch, so CORS is required.
+
+/board-data.json
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=60
